@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Low interaction honeypot application that displays real time attacks in the web-interface. Made just for fun and it is not production ready.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "ejs": "^2.6.1",
+    "escape-html": "^1.0.3",
+    "express": "^4.16.3",
+    "ftp-srv": "^2.19.4",
+    "helmet": "^3.13.0",
+    "mariadb": "^3.1.0",
+    "mysql": "^2.16.0",
+    "npm": "^5.10.0",
+    "socket.io": "^2.1.1",
+    "ssh2": "^0.6.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shmakov/Honeypot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shmakov/Honeypot/issues"
+  },
+  "homepage": "https://github.com/Shmakov/Honeypot#readme"
+}
